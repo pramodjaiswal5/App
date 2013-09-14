@@ -1,0 +1,135 @@
+1 Which of the following is correct with respect to compilation of Renderscript code?
+Render script code compile on the..
+4cm
+onCreate()
+Q.Which of the following is the correct syntax for frame animation using the AnimationDrawable class?
+A. b. &lt;animation-list xmlns:android=http://schemas.android.com/apk/res/android
+
+Q.Google Chrome for Android has been available since which API level of Android?
+aApi14 ics
+Q. Which of the following are the advantages of vector tiles introduced in Google Maps Android API v2?
+a. d.all of above
+Q. What is the role of the RedirectHandler interface?
+A. c. To determine if an HTTP request should be redirected to a new location.
+Q. What is the role of the SipManager class?
+A. d.To initiate and receive SIP calls.
+Q. Which of the following views can you use to open the camera from an application?
+A.a.SurfaceView
+Q. Which of the following classes provides the ability to use rounded corners in Android?
+A.b PaintDrawable
+Q. Which of the following explains the purpose of the ServerSocket class?
+A. a.It handles incoming connection requests and sends back an appropriate reply.
+Q. Which of the following does NOT describe constraints of Filterscript with respect to Renderscript?
+A.c. Built-in types cannot exceed 64-bits
+Q. In Renderscript, what is the use of the ScriptIntrinsicBlend class?
+A.a .It provides intrinsic kernels for blending two buffers.
+Q. Which of the following output formats is supported by the MediaRecorder class?
+A  d. All of the above
+Q. How many direct child can ScrollView host?
+A. d. One
+
+Q. Which of the following is NOT true regarding the ScriptGroup class?
+A. d.None of the above
+Q. For what purpose is the ContentProvider class used?
+A. a.Accessing data from an app's database or Android's native database.
+Q. Which of the following is NOT true regarding Renderscript computation?
+A. a. Renderscript is easily debuggable.
+Q. Which of the following methods is called first when you start an Activity?
+A onStart()
+Q. Which of following are NOT true with respect to an Android application?
+A. c.Every Android application runs on shared VM.
+Q. Which of the following datatypes CANNOT be sent to the next activity using the Intent.putExtra("")method?
+A. c. JSON object
+Q. Which class does the getCid() method belong to?
+A. b.GsmCellLocation
+Q. In which of the following situations will the EGL rendering context be lost?
+A a.When the device wakes up after going to sleep.
+Q. What happens if you try to reopen a database without having closed it?
+A. a.A memory leak occurs
+Q. Which of the following purposes is the ConnectivityManager class NOT used for?
+A. b.Running applications in the background.
+Q. Which code would you run to determine OpenGL extensions?
+A. a.String extensions = javax.microedition.khronos.opengles.GL10.glGetString(GL10.GL_EXTENSIONS); a /and b
+
+Q. In which of the following files or folders do you define the permissions for an project?
+A. Manifest
+Q. Which of the following databases is supported by Android natively?
+A.SQlite
+Q. What does the method TelephonyManager.CALL_STATE_OFFHOOK imply?
+A. The call is connected.
+Q. Which of the following is the correct syntax for frame animation using the AnimationDrawable class?
+Ans a.
+<!-- Animation frames are wheel0.png -- wheel5.png files inside the
+ res/drawable/ folder -->
+ <animation-list android:id="@+id/selected" android:oneshot="false">
+    <item android:drawable="@drawable/wheel0" android:duration="50" />
+    <item android:drawable="@drawable/wheel1" android:duration="50" />
+    <item android:drawable="@drawable/wheel2" android:duration="50" />
+    <item android:drawable="@drawable/wheel3" android:duration="50" />
+    <item android:drawable="@drawable/wheel4" android:duration="50" />
+    <item android:drawable="@drawable/wheel5" android:duration="50" />
+ </animation-list>
+
+Q. Which of the following can be detected using android:autoLink?
+A. All of the above
+Q. Which intent would you use to launch a ringtone picker?
+A. ACTION_RINGTONE_PICKER
+Q. What is the role of the ContentObserver class?
+A. a. Receiving call backs for changes to content.
+Q. Which of the following is the correct way to download data using the HttpURLConnection class?
+A. a. By calling the connect() and getInputStream() methods.
+
+Q. Which of the following is NOT an animation?
+A. b. Transition
+Q. For what purpose is the SQLiteOpenHelper class used?
+A. d. Managing database creation and version management.
+Q. Which type of architecture does Renderscript follow?
+A.  3-Tier Model
+Q. How does memory allocation work in Renderscript?
+A. b. It requests memory allocated to Android VM at run time.
+Q. For what purpose is the GLSurfaceView.GLWrapper interface used?
+A. c. Implementing debugging and tracing on top of the default GL interface.
+Q. Which class would you use to get the result of a DHCP request?
+A. a. DhcpInfo
+Q. Which of the following methods of the MediaPlayer class must be called first for playing an audio file?
+A. c. prepare()
+Q. Can layouts be designed or edited in an Activity(.java) class?
+A. b. Yes, they can be created and edited in .java classes.
+Q. What is the function of the following constant?  android:name="android.intent.category.LAUNCHER"
+A. a. It launches an activity.
+Q. Which of the following is an exception class for OpenGL errors?
+A. a. GLException
+Q. What is the extension of files used for storing Renderscript code?
+A. .rs
+Q. Which of the following classes converts the content of a MIME type into a Java type object?
+Á. c. ContentHandler
+Q. Which of the following methods would you use to determine the content size before downloading the content?
+A. c. urlConnection.getContentLength();
+Q. How many tracks does the compressed output of a recording session with a CamcorderProfile contain?
+A. b. One track for audio and one for video.
+Q. Which type of scrolling does GridView support?
+A. c. Both a and b
+Q. Which of following languages can be used for developing an Android application?
+A. a java
+Q. Which of the following is NOT a feature of the GLSurfaceView class?
+A. d. It prevents a user-provided Renderer object from doing the rendering.
+Q. What is the purpose of the StrictMode class?
+A. b. It is used to detect accidental disk or network access by an application.
+Q. Which of the following was introduced in API level 8 of Android?
+A. c. android.opengl.GLES20
+Q. Which class provides network traffic statistics?
+A. d. TrafficStats
+Q. Which of following parsers is NOT available in the Android SDK?
+Á GSON
+Q. For what purpose is the GLSurfaceView.Renderer interface used?
+A. c. Making OpenGL calls to render a frame.
+Q. Which interface is used for customizing the eglDestroySurface calls?
+A. b. GLSurfaceView.GLWindowSurfaceFactory
+Q. 
+
+
+
+
+
+
+
