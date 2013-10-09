@@ -1,0 +1,63 @@
+Name: Pramod Jaiswal
+
+
+Andoid Projects:
+
+1.	DOCNEXT
+Description :This apps helpful for comics reader, web document converter and viewers and social connections.
+Language :JAVA
+Technology: Android SDK, Eclipse, OpenGL, MySQL
+	
+
+2.	Akiya Bank
+Description : This application is helpful for knowing the vacant houses available all over Japan. In an Android Mobile by this application one can see how many vacant houses are available (area-wise) in Japan using its map locater. 
+Language :JAVA
+Technology: Android SDK, Eclipse, MySQL
+
+3.	TwitPic Image Share
+Description : Twitpic is one of the most common used image hosting that allows users to easily post images to Twitter and other social media. 
+Language :JAVA
+Technology: Android SDK, Eclipse,MySQL
+
+4.	File manager
+Description : File manager allows Android users, no matter where they are, to manage
+Their resources for free. You can  see and  access all of your files from your mobile device and share them with others.
+      Language :JAVA
+Technology: Android SDK, Eclipse
+
+5.	 File Encryption
+Description : Encryption Manager is a file manager, that offers a comfortable and secure way to keep files with confidential data encrypted using AES encryption on the SD card.
+     Language :JAVA
+Technology: Android SDK, Eclipse
+
+6.	BluetoothChat
+Description :  Talk to your friends without having to access a wifi network or Internet.Exchange messages in meetings, at work, in classrooms, festivals and clubs Secure, fast, easy and fun.
+     Language :JAVA
+Technology: Android SDK, Eclipse
+
+7.	Euodoo Ad management
+     Description : Ad manager is designed to deliver Ads to Agent terminal based on schedule and slot    availability. Advertisers are able to deliver and target Ads. 
+Language :JAVA
+     Technology: Android SDK, Eclipse, MySQL
+
+
+Python Project
+1.Walbrix virtual os
+Description :
+Walbrix operating system is an innovative easy-to-use further virtualization hypervisor Linux+Xen, can be easily operate by anyone.
+Technology: Python
+
+Technical Skill
+TOOLS/Language	# of experience in months	Beginner/ Intermediate / Expert
+Java	40 Months	Intermediate
+Python	12 months	Intermediate
+Phonegap	1 months	Beginner
+SQLite, MySQL, Oracle	30 months	Intermediate
+GITHUB	28 Months	Intermediate
+Eclipse	36 months	Intermediate
+Android	32 months	Intermediate
+
+                     
+
+
+
