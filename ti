@@ -1,0 +1,97 @@
+Description of the needed App 
+
+Introduction
+As introduction, most of the economic activities in this state of México are touristic. 
+The app needed is for the management of groups of people.  
+The company itself, provides a list of activities for the tourist.  Each of this activities has different prices, schedules, time lapses and a limit of people for each group/activity.
+The tourist makes a reservation by phone, and it is registered in a system.  This reservation could be for one to “n” visitors, but just one reservation registered.
+So, making the groups has to be done manually almost at the right moment before the activities starts.  This because there is a lot of variables and some people will have to make choices by their own criteria.
+The objective is to provide a digital tool, so all this information and changes can be known by the rest of the people involved in the process.  The initial information will be taken from the mysql data base of the actual system and will be written in a new database, so the information in this new data base will be used by the app tool.  Any changes in the original will be updated in the new database.
+
+Requirements
+•	Reservations
+o	Be able to see all the reservations of the day, following the next structure:
+	Day
+•	Hour or Schedule
+o	Program or Activity
+o	For each program, be able to see the next information:
+	Number of reservations
+	Capacity of each group
+	Available number for each activity
+	Number of calculated groups
+	Final number of groups created
+
+•	Group Management
+This module allows the user to see the resume information of the reservations for the selected schedule, also how many pending people is for each program, and how may are already in a group.  The number of people registered in the reservations is call “pax”.
+By clicking on each program, the user will be able to see details of each reservation, like the name of the visitor, any notes and how many people booked for each reservation.
+When groups are created, there will be shown also as a resume (numbers and icons).
+
+o	Creating groups
+	The user will be able to see all the reservations for each program.  
+	By criteria, the user will able to select the reservations as please and then touch the button “Create group” to make a group of the selected reservations.
+	The system will validate if the number of people is under or equal to the number of people allow for a group.  If it is not, there will be a notice letting the user accept the creation of the group or cancelling it.
+	Once the group is created, the resume information will be updated and also a created group resume will be show.
+	The reservations that belongs to a group will be blocked, so the user can only select the rest of the reservations that are pending.
+
+o	Undo or Break off a group 
+This option will be used for the user to break off a group, for any reason the user has.
+	The reservations will be able again to be selected to create or join a new group.
+	The numbers of the resume information and group resume will be updated.
+
+o	Unify two or more groups
+	Groups already created can be selected to create a new one.
+	It has to be the same kind of program to be unify, otherwise a message will be show to the user.
+	The numbers of the resume information and group resume will be updated.
+
+o	Divide a reservation in two or more groups
+	It the number of people for the reservation is high, and is over one group, this reservation could be break into more than one group.
+	The user should select the reservation and touch the “Divide” action, the user will be ask to enter the number of “pax” for the first group, if there still any pax left, the user will be asked again to enter the number of pax for the next group, and so on until there is no pax left.
+	The number of pax entered has to be validated so is not more than its left.
+	The numbers of the resume information and group resume will be updated.
+
+o	Add a reservation (one or more people) to a group
+	Reservations could be selected and join to an already created group, by touching this option.
+	There will be a message for the user to confirm this action or to be cancelled.
+	The numbers of the resume information and group resume will be updated.
+
+o	Take off a reservation from a group
+	If there is any changes of mind for a group, a reservation could be selected and taking off from a group.
+	This will let the reservation be able for a new group or joining one.
+	The numbers of the resume information and group resume will be updated. (Pending pax)
+
+o	Upgrade the activity/program
+Each program is different from the others, some are more complete and takes more time to do them instead. The visitors can change from the actual to the next one.  There will be a table for each program and their priority.
+	Users can upgrade a group only if this group is made by one reservation.
+	If the user selects the group and tries to make an upgrade, and this groups is made by more than one reservations, there will be a message indicating the user to select the reservations from the detail.
+	Users can upgrade a reservation even if the reservation is already in a group.  By selecting the reservation.
+	The numbers of the resume information and group resume will be updated. (New groups, pending packs, packs for the new programs)
+
+o	Desertion of the activity
+Any tourist can take off from the activity before this one starts.
+	Users are able to select a reservation, even if it is already in a group, and touch the actions of “Desertion”. 
+	The user will be asked to enter the number of “pax” that take off from their activity.
+	It has to be validated that this number entered is lower or equal than the number of “pax” for the reservation selected.
+	The user will be asked to type the reason why this “pax” are leaving the activity.
+	The numbers of the resume information and group resume will be updated. (New groups, pending packs, packs for the new programs)
+
+o	Schedule change
+Tourist can change schedule if there is room available
+	The system has to validate if the is room for changing schedule for the specific program of the reservation.
+	If there is, options are shown to the user.
+	The user can select any of the schedule available
+	There will be a message to confirm this action.
+	The numbers of the resume information and group resume will be updated. (New groups, pending packs, packs for the new programs)
+
+
+•	Management of Holdings or Management of the Area for the activity
+Once a group is created, it has to be assigned to an Area, this areas will be call alphabetical.
+o	The areas will be shown to the user as a map
+o	The user will be able to grab the group and drop it into one of these areas
+o	The areas or map will be fill with the created groups and shown to the user.
+o	If in the previous schedule the activity was a 1 hour program and in the actual is a 1 hour program (for the same holding or area), a notice will appear next to the group so the user is aware of it.  The notice will say: “Back to Back”.
+o	The user will be able to change the group to another area (if it is already assigned to one) by grabbing it and drop it to the new area.
+o	This assigned groups to an areas can be visualized and reordered by group or by area.
+o	There must be a button or a message to publish or to block this assignation of areas, so the rest of the people will know it.
+
+
+
