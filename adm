@@ -1,0 +1,26 @@
+1.1.1 Purpose
+A web application which is used to show Ads on Agent terminal, based on criteria specified by Agent, Agent can also design the ad using ad designer for his own purpose.
+Time slots are shared between the Agent and Kasstone UK Ltd.
+Advertisers upload the Ads, targeting them to a particular segment.
+1.1.2 Document Conventions
+The following are the list of conventions and acronyms used in this Document and the project as well:
+Administrator: Denotes user with administration privileges over the web application.
+Agent: Who has Ad inventory and display terminal(s) at their premises.
+Advertiser: Who provides Ad to be run on Agent’s terminal(s).
+1.1.3 Scope
+• Scope of this project is limited to displaying Ads in digital displays.
+• Replacing old-fashioned announcement ways, including paper posters and bulletin board system. Both of them require high cost of regular maintenance, operation, and lack of efficiency.
+• Distribution of live and pre-edited multimedia information to groups of displays across different displays.
+• Digital displays in chain stores, shops that can display news, promotions, announcements, open hours, and special offers to targeted audiences (Agents and employees).
+• Can be used anywhere, any time as it is a web based application irrespective of user location
+
+2 Overall description
+2.1.1 Functional Requirements Specification
+Ad manager is designed to deliver Ads to Agent terminal based on schedule and slot availability. Advertisers are able to deliver and target Ads.
+2.1.2 Working Prototype
+System can deliver content to different displays via the player through a browser or canvas.
+Server delivers all contents to the client which in turn delivers those Ads to displays attached with it.
+2.1.3 Assumptions
+The platform will not deliver individual Ads to independent displays on a single account, instead it will deliver the Ads directly to the system the system that is going to display the same Ad on all attached displays.
+If the shop has different items such as jewel and garments, the Agent needs two accounts & systems to show two different kinds of Ads.
+1) If network is down, the system in Agent place displays the Ad from local storage. During that time we can't control or limit the Ad delivery
